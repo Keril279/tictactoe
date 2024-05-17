@@ -1,7 +1,7 @@
 cmake_minimum_required (VERSION 3.12)
 
 # Here you can add all the source files for player
-set (PLAYER_SOURCES my_player.cpp)
+set (PLAYER_SOURCES my_player.cpp silly_player.cpp KirPlayer.cpp)
 
 # Create a library for your player
 add_library (tttplayer STATIC ${PLAYER_SOURCES})
